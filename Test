@@ -1,12 +1,10 @@
-public class MultiplyTwoNumbers {
+public class Main {
 
-    public static void main(String[] args) {
+  public static void main(String[] args) {
 
-        float first = 1.5f;
-        float second = 2.0f;
+    // year to be checked
+    int year = 1900;
+    boolean leap = false;
 
-        float product = first * second;
-
-        System.out.println("The product is: " + product);
-    }
-}
+    // if the year is divided by 4
+    if (year % 4 == 0) {
